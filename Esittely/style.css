@@ -1,0 +1,42 @@
+h1 {color: white; font-size: 40px;}
+
+body {
+    background-color: rgba(0, 0, 0, 0.938);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("img/Backround.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p {color: white; font-size: 19px;}
+
+h2 {color: white; font-size: 27px; text-decoration: underline;}
+
+.profile {
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+.profile-name {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profile section {
+    margin-bottom: 32px;
+}
+
+.profile-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.profile-list li {
+    color: white;
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+.profile-list li::before {
+    content: "- ";
+}
